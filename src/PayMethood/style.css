@@ -1,0 +1,115 @@
+ 
+.sPPans{
+    padding: .2rem;
+  }
+  .alls__sPPans{
+    display: flex;
+     border-top: 1px solid #b2aebd;
+  
+    border-bottom: 1px solid #b2aebd;
+    flex-direction: column;
+  }
+  .all__sPPans{
+    display: flex;
+    align-items: center;
+    margin: .2rem;
+  
+  
+  }
+  .all__sPPans__button{
+    background-color: white;
+    color: #6D4BD8;
+    padding: 7px;
+    width: 100%;
+    border: none;
+    margin-top: .5rem;
+  
+    margin-bottom: .5rem;
+    border-radius: 6px;
+  }.all__sPPans__buttons{
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #F1F1F1;
+    border-radius: 6px;
+  }
+   .img__chatbot{
+     margin: .2rem;
+   }
+  
+   .pay__method{
+     display: flex;
+     flex-direction: column;
+   }
+  
+   .pay__image{
+     width:55%;
+   }
+   .Apple__image{
+     width: 14%;
+   }
+   .div__Pay__image{
+     width: 80%;
+     background-color: white;
+     border-radius: 4px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+   }
+   .div__Pay__color{
+    width: 77%;
+    background-color:#000;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    padding: .2rem;
+    justify-content: center;
+   }
+   .s__PA__N{
+     margin: 1rem;
+     font-weight: 500;
+     font-size: 15px;
+   }
+   .div__Pay__colors{
+    width: 77%;
+    background-color:#6D4BD8;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    padding: .2rem;
+    justify-content: center;
+   }
+   .Apple__images{
+    width: 12%;
+    }
+   .Pay__divs{
+     background-image: url(../images/GroupPay.png);
+     background-repeat: no-repeat;
+       background-size: contain;
+    }
+    #input__pay{
+      margin-top: 4rem;
+    }
+    .Pay__divsAll{
+       padding: 2rem;
+       margin-top: 3rem;
+       background-color: #707070;
+   
+    }
+    #lable__personal{
+      font-size: 12px;
+    }
+    .evet{
+      border: none;
+      background-color: #6D4BD8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 30%;
+      margin: auto;
+      padding: 1rem;
+    }

@@ -1,0 +1,47 @@
+.helpdSection{
+    background-color: #fff;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     flex-direction: column;
+ }
+ 
+.helpdSection__title{
+    color: #6D4BD8;
+    font-family: 'Comfortaa';
+     font-weight: bold;
+     line-height: 4;
+    font-size: 44px;
+}
+.helpdSection__image{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+     display: grid;
+        margin: auto;
+    grid-template-columns: repeat(3, 1fr) ;  
+}
+.helpdSection__cell{
+    background-color: white;
+    align-items: center;
+    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2 ) !important;
+     display: flex;
+     margin: .4rem;
+height: 13vh;  
+  justify-content: space-evenly;
+ }
+.helpdSection__cell__name{
+color: black;
+font-size: 22px;
+font-weight: bold;
+}
+.helpdSection__cell:hover{
+    border: 1px solid #6D4BD8;
+}
+.helpdSection__cell__image{
+    width: 90%;
+    margin: auto;
+}

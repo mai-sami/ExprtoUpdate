@@ -46,14 +46,13 @@ flex-direction: column; }
   width: 100% !important;
    margin: auto;
     padding: 2.2rem;
-background-image: url(../Mask.png) !important;
+background-image: url(../images/MaskChat.png) !important;
 object-fit: contain;
 background-color: #FBFEFF !important;
 background-repeat: no-repeat !important;
 background-size: contain !important;
 height: 550px !important;
  }
-
 .UmiFU{
  border-radius: 50%!important;
 
@@ -231,7 +230,7 @@ border-radius: 5px;
  width: 12%;
  }
 .Pay__divs{
-  background-image: url(../GroupPay.png);
+  background-image: url(../images/GroupPay.png);
   background-repeat: no-repeat;
     background-size: contain;
  }

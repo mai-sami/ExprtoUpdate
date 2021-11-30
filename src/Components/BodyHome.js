@@ -3,17 +3,13 @@ import social from '../images/social.png'
  
  import phone from '../images/phone.png'
 import Maskk from '../images/Maskk.png'
-import Group from '../images/Group.png'
+// import Group from '../images/Group.png'
 import MaskG from '../images/MaskG.png'
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
 import Bodys from'./Bodys';
-  
-  
- 
-function BodyHome() {
+   function BodyHome() {
     const [t, i18n] = useTranslation();
-
     return (
         <div className="body___home">
             <div className="body___home__body">
@@ -99,7 +95,8 @@ function BodyHome() {
         </div>  
          <div className="section">
  <div className="section__right">
-<img src={Group} alt="" /> </div>
+{/* <img src={Group} alt="" />  */}
+</div>
  <div className="section__leaft">
 <p className="p__spacing">  {t("guaranteed")} </p>
  

@@ -9,15 +9,11 @@ import hand from '../images/hand.png'
 
 import Groupall from '../images/Groupall.png'
 import Groups from '../images/Groups.png'
-import Groupp from '../images/Groupp.png'
+// import Groupp from '../images/Groupp.png'
 import surface from '../images/surface.png'
 import Groupas from '../images/Groupas.png'
-
-
 import GroupAllss from '../images/GroupAllss.png'
- 
-import face from '../images/face.png'
-
+ import face from '../images/face.png'
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
 function Bodys() {
@@ -59,11 +55,13 @@ function Bodys() {
        <br />
    <img className="Groups" src={Groups}  alt=""/>
     <div className="text__parts">
-   <img src={Groupp}  alt=""/>
+   {/* <img src={Groupp}  alt=""/> */}
 
    <img src={surface}  alt=""/>
    <img src={Groupas}  alt=""/>
  </div>
+
+
  
    </div> 
  
